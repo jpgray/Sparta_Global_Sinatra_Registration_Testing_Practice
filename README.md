@@ -1,0 +1,1 @@
+# Sparta_Global_Sinatra_Registration_Testing_Practice
