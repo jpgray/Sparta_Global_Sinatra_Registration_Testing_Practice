@@ -14,7 +14,6 @@ end
 
 
   get "/registration_complete" do
-    # @img_id_src = 'posts/#{id}'
     @title = "Registration Complete!"
     erb :'posts/registration_complete'
   end
