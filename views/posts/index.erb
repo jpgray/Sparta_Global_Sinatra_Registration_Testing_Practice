@@ -23,7 +23,8 @@
       <form class="needs-validation" novalidate action="./registration_complete">
         <div class="form-row">
           <div class="form-group">
-            <label for="inputFirstName">First Name</label>
+            <br>
+            <label for="inputFirstName">First Name *</label>
             <input type="text" class="form-control" id="firstName" placeholder="Enter First Name" required>
             <div class="invalid-feedback">
               Please enter your first name.
@@ -32,7 +33,7 @@
         </div>
         <div class="form-row">
           <div class="form-group">
-            <label for="inputLastName">Last Name</label>
+            <label for="inputLastName">Last Name *</label>
             <input type="text" class="form-control" id="lastName" placeholder="Enter Last Name" required>
             <div class="invalid-feedback">
               Please enter your last name.
@@ -41,14 +42,14 @@
         </div>
         <div class="form-row">
           <div class="form-group">
-            <label for="inputAge">Age</label>
-            <input type="text" class="form-control" placeholder="Enter Age..." required>
+            <label for="inputAge">Age *</label>
+            <input type="text" class="form-control" placeholder="Enter Age" required>
             <div class="invalid-feedback">
               Please enter your age.
             </div>
           </div>
         </div>
-        <p>Gender:</p>
+        <p>Gender: *</p>
         <div class="custom-control custom-radio custom-control-inline">
           <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input" required>
           <label class="custom-control-label" for="customRadioInline1">Male</label>
@@ -59,15 +60,16 @@
         </div>
         <div class="form-row">
           <div class="form-group">
-            <label for="inputDegree">Degree</label>
-            <input type="text" class="form-control" placeholder="Enter Degree..." required>
+            <br>
+            <label for="inputDegree">Degree *</label>
+            <input type="text" class="form-control" placeholder="Enter Degree" required>
           </div>
         </div>
         <div class="form-row">
           <div class="form-group col-md-4">
             <label for="inputUni">University</label>
             <select id="inputUni" class="form-control" required>
-              <option selected>Choose...</option>
+              <option selected>Choose</option>
               <option>University of Oxford</option>
               <option>University of Cambridge</option>
               <option>University of Sheffield</option>
@@ -76,7 +78,7 @@
           </div>
         </div>
         <div class="form-group col-md-6">
-          <label for="inputAddress">Address</label>
+          <label for="inputAddress">Address *</label>
           <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St" required>
           <div class="invalid-feedback">
             Please enter an address.
@@ -88,7 +90,7 @@
         </div>
         <div class="form-row">
           <div class="form-group">
-            <label for="inputCity">City</label>
+            <label for="inputCity">City *</label>
             <input type="text" class="form-control" id="inputCity" required>
           </div>
         </div>
@@ -96,7 +98,7 @@
           <div class="form-group col-md-4">
             <label for="inputCounty">County</label>
             <select id="inputCounty" class="form-control" required>
-              <option selected>Choose...</option>
+              <option selected>Choose</option>
               <option>Buckinghamshire</option>
               <option>Hertfordshire</option>
               <option>South Yorkshire</option>
@@ -106,7 +108,7 @@
         </div>
         <div class="form-row">
           <div class="form-group col-md-2">
-            <label for="inputPostcode">Postcode</label>
+            <label for="inputPostcode">Postcode *</label>
             <input type="text" class="form-control" id="inputPostcode" required>
             <div class="invalid-feedback">
               Please enter a postcode.
@@ -115,7 +117,7 @@
         </div>
         <div class="form-row">
           <div class="form-group">
-            <label for="exampleFormControlInput1">Email address</label>
+            <label for="exampleFormControlInput1">Email address *</label>
             <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
             <div class="invalid-feedback">
               Please enter an email.
@@ -130,7 +132,7 @@
         </div>
         <div class="form-row">
           <div class="form-group">
-            <label for="exampleFormControlInput1">Phone Number</label>
+            <label for="exampleFormControlInput1">Phone Number *</label>
             <input type="tel" class="form-control" id="exampleFormControlInput1" placeholder="Enter phone number" required>
             <div class="invalid-feedback">
               Please enter a phone number.
@@ -144,7 +146,7 @@
           </div>
         </div>
         <div class="form-row">
-          <p>Stream:</p>
+          <p>Stream: *</p>
         </div>
         <div class="form-row">
           <div class="custom-control custom-radio custom-control-inline">
@@ -160,14 +162,14 @@
           <div class="form-group">
             <div class="form-check">
               <input class="form-check-input" type="checkbox" id="terms" required>
-              <label class="form-check-label" for="gridCheck">Agree to terms and conditions</label><br>
+              <label class="form-check-label" for="gridCheck">Agree to terms and conditions *</label><br>
             </div>
           </div>
         </div>
         <p>Rate your experience of the form</p>
 
         <div class="slidecontainer">
-          <input type="range" min="1" max="100" value="5" class="slider" id="experienceSlider">
+          <input type="range" min="1" max="100" value="50" class="slider" id="experienceSlider">
           <p>Rating: <span id="value_for_slider"></span>/100</p>
         </div>
 
